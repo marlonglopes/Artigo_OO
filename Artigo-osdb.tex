@@ -1,0 +1,27 @@
+O benchmark OSDB (\emph{Open Source Database Benchmark}) foi criado com o objetivo
+inicial de avaliar a taxa de I/O e o poder de processamento da plataforma GNU
+Linux/Alpha. Sua implementação é baseada no benchmark AS3AP, diferindo em alguns
+aspectos: quantidade de métricas retornadas e número de módulos. Enquanto a análise
+dos resultados gerados pelo benchmark AS3AP baseia-se em uma única métrica
+(tamanho máximo do banco de dados suficiente para completar o teste em menos de 12
+horas), o OSDB possibilita a comparação através de outras métricas: tempo de resposta
+das consultas e número de linhas retornadas por segundo.
+
+Este benchmark é dividido em três módulos: carga e estrutura, mono-usuário
+e multi-usuário. O módulo de carga e estrutura inclui a criação e carga de tabelas a
+partir de dados armazenados em arquivos texto, além da criação de índices clusterizados
+e não-clusterizados (apenas B-tree). No módulo mono-usuário é testado o desempenho
+de seleções, junções, projeções, agregações e atualizações. A ordem de execução das
+consultas é definida de forma a não favorecer a utilização de dados em cache.
+
+No módulo multi-usuário, os testes simulam perfis de carga de trabalho
+diferentes. Para cada tipo, um determinado número de processos é executado
+concorrentemente, simulando uma massa de usuários conectados. A quantidade de
+usuários é um quarto do tamanho do banco de dados. Os perfis de carga de trabalho
+incluem: (i) perfil OLTP, considerando a base de dados de 512MB, 127 usuários
+executam operações de atualização em uma única tabela. O outro usuário executa um
+conjunto de 08 (oito) consultas pré-definidas sobre uma mesma tabela; (ii) perfil misto,
+01 (um) usuário executa um conjunto de operações incluindo atualizações e consultas,
+enquanto que os demais executam o conjunto de consultas do perfil OLTP.
+
+Neste trabalho será utilizado um esquema de execução alternativo, para simplificar o trabalho de implementação e execução dos testes.

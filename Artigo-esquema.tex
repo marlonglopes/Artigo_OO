@@ -1,0 +1,72 @@
+\subsection{Metodologia}
+\label{cha:subsecmetodologia}
+
+Será definido um estudo comparativo para avaliação de performance entre SGBDs de código fechado: Oracle, SQL Server e CACHE. A implementação será feita utilizando a linguagem C{\#} .NET.
+
+\subsection{Definição do esquema de dados}
+\label{cha:sub1esquema}
+
+
+\begin{figure}[ht!]
+	\begin{center}
+		%%\includegraphics[width=10in,height=6in]{esquema.jpg}
+		\includegraphics[scale=0.7]{esquema2.jpg}
+		\caption{\label{esquema} Base de dados para execução dos testes}		
+	\end{center}
+\end{figure}
+
+
+O esquema de dados é o conjunto de descrições que definem os tipos de dados e sua organização para o sistema de gerenciamento de banco de dados. Podem existir muitos tipos diferentes de dados, dependendo da complexidade do banco de dados.
+Mesmo os sistemas de banco de dados mais simples diferenciam dados numéricos e de texto. Em bancos de dados mais
+complexos, o esquema diferencia níveis de dados numéricos, além de identificar outras características dos dados.
+
+Ao migrar o banco de dados, o esquema pode ser um desafio importante. É necessário mapear os tipos de dados do banco
+de dados antigo para os tipos de dados do novo sistema de banco de dados. Eles não precisam ter o mesmo nome, mas
+devem ter a mesma função. Por exemplo, se voce não mapear os tipos de dados corretamente na migração do banco de dados, podem ocorrer resultados imprevisíveis nas buscas, pior ainda, dados podem ser danificados ou perdidos.
+
+O esquema também pode indicar relações entre tabelas. Estas relações definem a integridade referencial. Integridade referencial é uma das áreas problemáticas em gerenciamento de banco de dados, principamente se os usuarios que acessam os dados não conhecem as definições de referencias e não respeitam tais regras, para isso um bom sistema gerenciador de banco de dados deve implementar um bom mecanismo de verificação de integridade referencial.
+
+Quanto a integridado de dados, um problema encontrado em varios bancos de dados antigos é a falta de tipagem nos dados armazenados, tornando a migração mais lenta pois é necessário a verificação dos tipos de dados nas tabelas do banco novo.
+
+Para avaliação de performace será criado um esquema de dados de média complexidade para avaliar os aspectos necessários em um bom 
+sistema de banco de dados, a figura \ref{esquema} ilustra o esquema de dados.
+
+\subsection{Esquema de Execução do estudo comparativo}
+\label{cha:sub2esquema}
+
+Serão definidas oito tabelas relacionadas e com campos de tipos diferentes para avaliar os diferentes requisitos referêntes a intergridade dos dados e referêntes a ralacionamentos entre as tabelas.
+
+O esquema de execução de testes consiste em estabelecer conexão com o banco de dados, marcar tempo de inicio, executar as inserções ou consultas, liberar conexão, e marcar tempo final. Nesse tempo serão executados e avaliados os seguintes testes:
+
+- Teste de integridade de dados: 
+
+O teste deve verificar o quanto o SGDB  controla automaticamente a integridade dos diversos tipos de dados necessários ao modelo de dados definido. O teste constitui em definir os tipos de dados de cada atributo de cada tabela e verificar a garantia de integridade dos dados;
+
+- Teste de integridade referencial:
+
+O teste deve verificar o nível de controle de integridade em relação a inclusão, alteração e remoção de dados de tabelas que estão relacionadas com outras tabelas.
+
+- Teste de integridade de chave primaria:
+
+O teste deve verificar a integridade com relação a unicidade de chaves primarias nas tabelas.
+
+- Teste de consistência de dados:
+
+O teste deve verificar o controle que o SGBD tem sobre os tipos de dados que fornece. O presente teste é decorrência do primeiro visto que a garantia de integridade dos dados afeta profundamente a garantia de consistência.
+
+- Teste de performance com utilização de tabelas comuns solitárias:
+
+O teste deve verificar se o tempo de armazenamento e recuperação de informações utilizando somente dados do tipo texto e ou numéricos em tabelas sem relacionamento é satisfatório.
+
+- Teste de performance com utilização de tabelas com relacionamentos:
+
+O teste deve verificar o tempo de armazenamento e recuperação de informações utilizando somente dados do tipo texto e ou numéricos em tabelas um ou mais relacionamentos.
+
+- Teste de acesso concorrente:
+
+O teste deve verificar a performance do sistema variando a quantidade de usuários acessando simultâneamente os dados.
+
+A Execução dos testes será realizada remotamente e localmente, com o objetivo de avaliar tambem influências de uma rede no estabelecimento da conexão.
+
+\input{Artigo-sgbds}
+

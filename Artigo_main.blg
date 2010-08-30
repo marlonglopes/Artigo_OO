@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: Artigo_main.aux
+The style file: abnt.bst
+Database file #1: references.bib
+Warning--entry type for "boscarioli2006" isn't style-file defined
+--line 155 of file references.bib
+You've used 14 entries,
+            1445 wiz_defined-function locations,
+            409 strings with 4114 characters,
+and the built_in function-call counts, 11040 in all, are:
+= -- 1298
+> -- 0
+< -- 90
++ -- 646
+- -- 14
+* -- 375
+:= -- 809
+add.period$ -- 67
+call.type$ -- 14
+change.case$ -- 56
+chr.to.int$ -- 2
+cite$ -- 14
+duplicate$ -- 1549
+empty$ -- 578
+format.name$ -- 82
+if$ -- 2550
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 31
+num.names$ -- 28
+pop$ -- 167
+preamble$ -- 1
+purify$ -- 70
+quote$ -- 0
+skip$ -- 766
+stack$ -- 0
+substring$ -- 646
+swap$ -- 931
+text.length$ -- 14
+text.prefix$ -- 28
+top$ -- 0
+type$ -- 112
+warning$ -- 0
+while$ -- 56
+width$ -- 28
+write$ -- 16
+(There was 1 warning)

@@ -1,0 +1,13 @@
+Recentemente, foram publicados trabalhos de criação e aperfeiçoamento de benchmarks. Um dos principais motivos é a restrição imposta pela “cláusula DeWitt” \cite{moranb}, que proíbe a realização de testes em bancos de dados comerciais sem a prévia autorização do fabricante. Em razão disso, vários benchmarks foram construídos para comparar o desempenho de SGBD de código aberto: DBT-2
+\cite{osdl}, TPCC-UVA \cite{hernandez02} e OSDB \cite{osdb}. Os dois primeiros utilizam uma carga de trabalho OLTP similar a do consagrado benchmark TPC-C, da TPCTM (Transaction Processing Performance Council) \cite{tpc}. O benchmark TPC-C é a principal referência no mundo quando se trata de desempenho de sistemas computacionais. 
+
+OLTP é um acrônimo de \emph{Online Transaction Processing} ou Processamento de transações em tempo-real. São sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional. Por exemplo: sistema de transações bancárias que registra todas as operações efetuadas em um banco, caixas de multibanco, reservas de viagens ou hotel nn-line, Cartões de Crédito.
+
+A maioria dos resultados comparando o desempenho de SGBD de código aberto foi produzida através de uma ampla variedade de benchmarks e estes resultados são muitas vezes contraditórios e tendenciosos.
+
+Neste trabalho o objetivo é apenas auxiliar na decisão de migração de plataforma, e não apontar falhas ou publicar os resultados com fins comerciais.
+
+\subsection{O Benchmark OSDB}
+\label{cha:osdb}
+\input{Artigo-osdb}
+

@@ -1,0 +1,100 @@
+\documentclass[]{article}
+
+\usepackage{sbc2001}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage[portuges,brazil]{babel}
+\usepackage{boxedminipage}
+\usepackage{listings}
+\usepackage{ifpdf}
+\usepackage{longtable}
+\usepackage{url}
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+
+\begin{document}
+
+\date{Julho 22, 2010}   
+
+\sloppy
+
+\title{Sistemas legados -  Migração para Novas Tecnologias : Nova plataforma de banco de dados}
+\author{Marlon Gomes Lopes}
+
+\address{
+         %%Pós-Graduação \\
+	 Especialização em Tecnologias Aplicadas a Sistemas de Informação com Métodos Ágeis - 4ª Edição \\
+         Uniritter \\
+         Porto Alegre, RS \\
+         \email{marlonglopes@gmail.com}
+}
+
+\maketitle
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+
+\begin{resumo}
+
+Este artigo apresenta o detalhamento de um estudo comparativo entre bancos de dados de código fechado CACHE, SQL Server e Oracle com o objetivo de obter subsídios para a decisão de migração de plataforma de banco de dados de um sistema legado. Este estudo tem como objetivo avaliar aspectos de implementação básicos que um banco de dados deve possuir. Demonstraremos abordagens e métodos para avaliar performace bem como descrever como será conduzido o estudo comparativo. 
+
+
+\end{resumo}
+
+
+\begin{abstract}
+
+This article presents the details of a comparative study between closed source databases CACHE, SQL Server, and Oracle with the aim of obtaining grants for the decision of database legacy system platform migration. This study aims to evaluate basic issues implementation of an databases. Demonstrate approaches and methods to evaluate performace and describe how the comparative study will be conducted.
+
+
+\end{abstract}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Introdução}
+\label{cha:introducao}
+\input{Artigo-introducao}
+
+\section{Argumentos para Migração}
+\label{cha:argumentos}
+\input{Artigo-argumentos}
+
+\section{Implicações  da migração de plataforma de Banco de dados}
+\label{cha:implicacoes}
+\input{Artigo-implicacoes}
+
+\section{Abordagens para Migração }
+\label{cha:abordagens}
+\input{Artigo-abordagens}
+
+\section{Trabalhos anteriores}
+\label{cha:trabs}
+\input{Artigo-trabalhos}
+
+\section{Esquema de Execução do estudo comparativo}
+\label{cha:esquema}
+\input{Artigo-esquema}
+
+\section{Ambiente de testes}
+\label{cha:ambiente}
+\input{Artigo-ambiente}
+
+\section{Considerações finais}
+\label{cha:consideracoes_finais}
+\input{Artigo-consideracoes}
+
+\bibliographystyle{abnt}
+
+\renewcommand{\bibname}{Referência Bibliografia}
+\bibliography{references}
+
+\end{document}
