@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.20)  30 AUG 2010 11:46
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.20)  2 SEP 2010 17:20
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/administrador/Desktop/Artigo_OO/Artigo_main.tex"}
@@ -549,93 +549,237 @@ Package caption Info: longtable package v3.15 (or newer) detected on input line
 \everyMPtoPDFconversion=\toks27
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 39.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
 
-(/home/administrador/Desktop/Artigo_OO/Artigo-introducao.tex)
-(/home/administrador/Desktop/Artigo_OO/Artigo-argumentos.tex [1
+(/home/administrador/Desktop/Artigo_OO/Artigo-introducao.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 68.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(/home/administrador/Desktop/Artigo_OO/Artigo-implicacoes.tex [2])
-(/home/administrador/Desktop/Artigo_OO/Artigo-abordagens.tex)
-(/home/administrador/Desktop/Artigo_OO/Artigo-trabalhos.tex
-(/home/administrador/Desktop/Artigo_OO/Artigo-osdb.tex [3]))
-(/home/administrador/Desktop/Artigo_OO/Artigo-esquema.tex
-<esquema2.jpg, id=17, 599.99156pt x 423.83344pt>
-File: esquema2.jpg Graphic file (type jpg)
- <use esquema2.jpg>
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 14.
+(/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
 
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 126--127
+[]\OT1/ptm/m/it/10 Mediator\OT1/ptm/m/n/10 , De-fine um ob-jeto que en-cap-sula
+ como um con-junto de ob-je-tos \OT1/ptm/m/it/10 in-te-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 126--127
+\OT1/ptm/m/it/10 ract.Mediator \OT1/ptm/m/n/10 pro-move aco-pla-mento, man-tend
+o os ob-je-tos de cada EPI re-fe-rindo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 65.
+ (/home/administrador/Desktop/Artigo_OO/Artigo-factory-motivacao.tex
+<Figuras/image1.jpg, id=15, 1003.75pt x 401.5pt>
+File: Figuras/image1.jpg Graphic file (type jpg)
+ <use Figuras/image1.jpg>
+Overfull \hbox (75.08243pt too wide) in paragraph at lines 31--32
+ [] 
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
- [4 </home/administrador/Desktop/Artigo_OO/esquema2.jpg>]
-(/home/administrador/Desktop/Artigo_OO/Artigo-sgbds.tex
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 32.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Underfull \vbox (badness 3449) has occurred while \output is active []
-
- [6]
-Overfull \hbox (22.60832pt too wide) in paragraph at lines 68--68
-[]\OT1/pcr/m/n/7 Server=myServerAddress;Database=myDataBase;User ID=myUsername;
-Password=myPassword;Trusted_Connection=False;[] 
+ [3]
+<Figuras/image2.jpg, id=19, 1003.75pt x 401.5pt>
+File: Figuras/image2.jpg Graphic file (type jpg)
+ <use Figuras/image2.jpg>
+Overfull \hbox (75.08243pt too wide) in paragraph at lines 56--57
+ [] 
  []
 
-[7] [8])) (/home/administrador/Desktop/Artigo_OO/Artigo-ambiente.tex [9])
-(/home/administrador/Desktop/Artigo_OO/Artigo-consideracoes.tex)
-(/home/administrador/Desktop/Artigo_OO/Artigo_main.bbl
-Underfull \hbox (badness 1783) in paragraph at lines 23--27
-[]\OT1/ptm/m/n/10 Moran, Brian. \OT1/ptm/b/n/10 The de-vil's in the dewitt clau
-se\OT1/ptm/m/n/10 . 2003. (http://www.windowsitpro.com/article/sql-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
-[]\OT1/ptm/m/n/10 Strings, SQL-Server Con-nec-tion. \OT1/ptm/b/n/10 Sql-server 
-- con-nec-tion scrings\OT1/ptm/m/n/10 . 2010.
- []
-
-) [10] (/home/administrador/Desktop/Artigo_OO/Artigo_main.aux) ) 
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <8> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 57.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 57.
+[4 </home/administrador/Desktop/Artigo_OO/Figuras/image1.jpg> </home/administra
+dor/Desktop/Artigo_OO/Figuras/image2.jpg>]) [5]
+(/home/administrador/Desktop/Artigo_OO/Artigo_main.aux) ) 
 Here is how much of TeX's memory you used:
- 5099 strings out of 94074
- 69124 string characters out of 1165153
+ 5075 strings out of 94074
+ 68155 string characters out of 1165153
  129549 words of memory out of 1500000
- 8259 multiletter control sequences out of 10000+50000
- 22096 words of font info for 47 fonts, out of 1200000 for 2000
+ 8255 multiletter control sequences out of 10000+50000
+ 25491 words of font info for 50 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 43i,10n,40p,766b,344s stack positions out of 5000i,500n,6000p,200000b,5000s
-{/usr/share/tex
-mf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/bl
-uesky/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb>
-</usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf
--texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1
-/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.p
-fb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Artigo_main.pdf (10 pages, 189955 bytes).
+ 43i,10n,40p,458b,320s stack positions out of 5000i,500n,6000p,200000b,5000s
+{/usr/share/texmf-texl
+ive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/bluesky/c
+m/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/h
+elvetic/uhvbo8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb>
+</usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on Artigo_main.pdf (5 pages, 163808 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

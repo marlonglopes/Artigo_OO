@@ -1,0 +1,112 @@
+O padrão Factory Method está relacionado a todos os outros padrões que conduzam
+algum tipo de construção encapsulada de objetos. Além de Factory os padrões Iterator,
+Singleton , Builder, Prototype e Bridge- para citar alguns – estão relacionados ao padrão
+Factory Method.
+
+Define uma interface para a criação de um objeto, mas deixa que as subclasses
+decidam qual a classe instanciar. Permite a uma classe delegar a instanciação para as
+subclasses.
+
+
+\subsection{Motivação}
+\label{sub:fac_motiv}
+
+\emph{Frameworks} usam classes abstratas para definir e manter relacionamentos entre
+objetos. Um \emph{framework} é muitas vezes responsável por criar esses objetos também.
+
+Considere-se um \emph{framework} de aplicações que podem apresentar vários documentos ao
+usuário. Duas abstrações chave neste \emph{framework} são as classes Application e
+Documento. Ambas as classes são abstratas, e os clientes têm usalas como subclasses para perceber
+suas implementações de aplicações específicas. Para criar um aplicativo de desenho, por
+exemplo, podemos definir as classes e \emph{DrawingApplication} e \emph{DrawingDocument}. A
+classe Application é responsável pela gestão de documentos e como criá-los assim que o usuário selecione Open ou Novo a partir de um menu, por exemplo.
+
+Como subclasse do documento em particular para instanciar é específico do aplicativo,
+a classe Application não consegue prever que documento deve criar, a classe Application só sabe quando um novo documento deve ser criado, não o tipo do documento para criar. Isso cria um dilema: O \emph{framework} deve instanciar classes, mas só sabe sobre classes abstratas, que não pode instanciar.
+
+O padrão Factory Method oferece uma solução. Ele encapsula o conhecimento de
+que subclasse Documento deve criar e move este conhecimento para fora do \emph{framework}.
+
+\begin{center}
+	\includegraphics[scale=0.50]{Figuras/image1.jpg}
+	\captionof{figure}{\label{diagrama1} Representação da estrutura para criação de documentos}
+	\label{fig:diagrama1}
+\end{center}
+
+As subclasses da aplicação redefinem uma operação abstrata \emph{CreateDocument} no 
+aplicativo para retornar a subclasse apropriada documento. Uma vez que uma subclasse da aplicação é instanciada, ele pode então instanciar documentos sem saber sua classe. Chamamos \emph{CreateDocument} um \emph{factory method} porque é
+responsável por "produzir" um objeto.
+
+\subsection{Aplicação}
+\label{sub:fac_aplica}
+
+Use o padrão \emph{Factory pattern} quando
+
+\begin{itemize}
+	\item Quando uma classe (o criador) não pode antecipar a classe dos objetos que deve criar
+.	\item uma classe quer que suas subclasses possam especificar os objetos que ele cria.
+	\item Quando classes delegam responsabilidade para uma entre várias subclasses de apoio e
+queremos localizar num ponto único a conhecimento de qual subclasse está sendo usada
+
+\end{itemize}
+
+
+
+\begin{center}
+	\includegraphics[scale=0.50]{Figuras/image2.jpg}
+	\captionof{figure}{\label{diagrama2} Representação da estrutura de classes utilizando \emph{factory method}}
+	\label{fig:diagrama2}
+\end{center}
+
+
+\subsection{Problema}
+\label{sub:fac_problema}
+
+Uma classe precisa instanciar a derivação de uma outra, mas não sabe qual. O Factory
+Method permite que uma classe derivada tome essa decisão.
+
+\subsection{Solução}
+\label{sub:fac_solucao}
+
+Uma classe derivada decide qual classe instanciar e o modo como instanciá-la.
+Algumas razões existem para que não queria utilizar new diretamente. A primeira, e
+mais óbvia, é não saber que classe de objeto instanciar.
+Isso é comum numa aplicação bem desenhada onde variáveis são estruturadas com
+base em interfaces. Assim, vários tipos de objetos diferentes podem ser associados a
+essa variável. Outra razão é a necessidade de inicializar o objeto instanciado antes de ser
+atribuído à variável. Importante notar
+que esta inicialização não depende do ambiente onde o objeto será utilizado, mas apenas
+da estrutura do próprio objeto.
+
+
+
+\subsection{Como utilizar}
+\label{sub:fac_utilizacao}
+
+\begin{itemize}
+	\item É possível criar um objeto sem ter conhecimento algum de sua classe concreta?
+	\item Esse conhecimento deve estar em alguma parte do sistema, mas não precisa estar
+no cliente
+	\item FactoryMethod define uma interface comum para criar objetos
+	\item O objeto específico é determinado nas diferentes implementações dessa interface
+	\item O cliente do FactoryMethod precisa saber sobre implementações concretas do
+objeto criador do produto desejado
+
+\end{itemize}
+
+
+\subsection{Diagrama de classes}
+\label{sub:fac_diagrama}
+
+
+
+
+\subsection{Exemplos de uso}
+\label{sub:fac_uso}
+
+\subsection{Benefícios}
+\label{sub:fac_beneficios}
+
+
+
+

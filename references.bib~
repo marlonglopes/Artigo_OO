@@ -1,0 +1,397 @@
+@unpublished{sqlserver,
+	Author = {Microsoft},
+	Month = {Julho},
+	Note = {http://www.microsoft.com/sqlserver/2008/en/us/. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {SQL Server},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.microsoft.com/sqlserver/2008/en/us/}}
+
+@unpublished{oracle,
+	Author = {Oracle},
+	Month = {Julho},
+	Note = {http://www.oracle.com/br/index.htm. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {Oracle},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.oracle.com/br/index.htm}}
+
+@unpublished{cache,
+	Author = {Caché},
+	Month = {Julho},
+	Note = {http://www.intersystems.com.br/isc/cache/. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {Caché},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.intersystems.com.br/isc/cache/}}
+
+
+@unpublished{sqlstring,
+	Author = {SQL-Server - Connection Strings},
+	Month = {Julho},
+	Note = {http://www.connectionstrings.com/sql-server-2008. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {SQL-Server - Connection Scrings},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.connectionstrings.com/sql-server-2008}}
+
+@unpublished{orastring,
+	Author = {Oracle - Connection Strings},
+	Month = {Julho},
+	Note = {http://www.connectionstrings.com/oracle. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {Oracle - Connection Scrings},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.connectionstrings.com/oracle}}
+
+@unpublished{cacstring,
+	Author = {Caché - Connection Strings},
+	Month = {Julho},
+	Note = {http://www.connectionstrings.com/cache. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {Caché - Connection Scrings},
+	Year = {2010},
+	Bdsk-Url-1 = {http://www.connectionstrings.com/cache}}
+
+
+
+@unpublished{moranb,
+	Author = {Brian Moran},
+	Month = {Julho},
+	Note = {http://www.windowsitpro.com/article/sql-server/the-devil-s-in-the-dewitt-clause.aspx. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {The Devil's in the DeWitt Clause},
+	Year = {2003},
+	Bdsk-Url-1 = {http://www.windowsitpro.com/article/sql-server/the-devil-s-in-the-dewitt-clause.aspx}}
+
+
+@unpublished{osdl,
+	Author = {OSDL},
+	Month = {Julho},
+	Note = {http://www.osdl.org/. ({\'U}ltimo acesso em Julho 2010)},
+	Title = {Open Source Development Labs – Database Test 2},
+	Year = {2002},
+	Bdsk-Url-1 = {http://www.osdl.org/}}
+
+@unpublished{osdb,
+	Author = {OSDB},
+	Month = {Julho},
+	Note = {http://osdb.sourceforge.net/ ({\'U}ltimo acesso em Julho 2010)},
+	Title = {The Open Source Database Benchmark},
+	Year = {2001},
+	Bdsk-Url-1 = {http://osdb.sourceforge.net/}}
+
+
+@unpublished{tpc,
+	Author = {TPC},
+	Month = {Julho},
+	Note = {http://www.tpc.org/ ({\'U}ltimo acesso em Julho 2010)},
+	Title = {Transaction Processing Performance Council.},
+	Year = {2001},
+	Bdsk-Url-1 = {http://www.tpc.org/}}
+
+
+@phdthesis{hernandez02,
+	Author = {Gonzalo J, Hernandes P.},
+	School = {Escuela Universitaria Politécnica de Valladolid, Universidad de Valladolid, Spain.},
+	Title = {Implementación en C del benchmark de transacciones distribuidas TPC-C, Escuela Universitaria Politécnica de Valladolid, Universidad de Valladolid, Spain.},
+	Year = 2002}
+
+
+
+@article{pires-comparativo,
+  title={{Comparativo de Desempenho entre Bancos de Dados de C{\'o}digo Aberto}},
+  author={Pires, C.E.S. and Nascimento, R.O. and Salgado, A.C.},
+  journal={Centro de Inform{\'a}tica-Universidade Federal de Pernambuco. Recife}
+}
+
+
+@article{delfino-avaliação,
+  title={{Avalia{\c{c}}{\~a}o de Desempenho de SGBDs de C{\'o}digo Aberto para Constru{\c{c}}{\~a}o de Bases de Imagens M{\'e}dicas}},
+  author={Delfino, S.R. and Nunes, F.L.S. and Spoto, E.S.},
+  journal={Centro Universit{\'a}rio Eur{\'\i}pides de Mar{\'\i}lia. S{\~a}o Paulo}
+}
+
+
+@article{de2005banco,
+  title={{Banco de Dados P{\'o}s-Relacional}},
+  author={de Carvalho Sousa, F.R.},
+  year={2005}
+}
+
+@article{de-adriana,
+  title={{Adriana Paula Carneiro Cavalcanti}},
+  author={DE SGBD, G.}
+}
+
+
+@book{brodie1995migrating,
+  title={{Migrating legacy systems}},
+  author={Brodie, M.L. and Stonebraker, M.},
+  year={1995},
+  publisher={Morgan Kaufmann Publishers}
+}
+
+@article{elmasri-sistemas,
+  title={{Sistemas de banco de dados}},
+  author={Elmasri, R. and Navathe, S.B.},
+  journal={4{\textordfeminine} Edi{\c{c}}{\~a}o, Addison}
+}
+
+@book{ramakrishnan1999database,
+  title={{Database management systems}},
+  author={Ramakrishnan, R. and Gehrke, J.},
+  year={1999},
+  publisher={McGraw-Hill, Inc. New York, NY, USA}
+}
+
+
+@article{heuser2001projeto,
+  title={{Projeto de banco de dados}},
+  author={Heuser, C.A.},
+  journal={Porto Alegre: Sagra Luzzatto},
+  year={2001}
+}
+
+@phdthesis{roberto2005,
+	Author = {Roberto Andrade da Silva},
+	School = {UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL - INSTITUTO DE INFORMÁTICA},
+	Title = {Migração e Integração de Sistemas Legados},
+	Year = {2005}}
+
+@conference{boscarioli2006,
+  title={{Uma reflexão sobre banco de dados orientados a objetos}},
+  author={Boscarioli, C. and Bezerra, A. and de Benedicto, M. and Delmiro, G.},
+  booktitle={Congresso de Tecnologias para Gestão de Dados e Metadados do Cone Sul, Paraná, Brasil},
+  year={2006}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+
+@article{cantossanches97.2,
+	Author = {Pascual Cantos G{\'o}mez and Aquilino S{\'a}nchez P{\'e}rez},
+	Date-Added = {2009-04-06 20:30:53 -0300},
+	Date-Modified = {2009-04-06 20:32:50 -0300},
+	Journal = {International Journal of Corpus Linguistics},
+	Title = {Predicability of word forms (types) and lemmas in linguistic corpora. A case study based on the analysis of the CUMBRE corpus: an 8-million word corpus of contemporary Spanish},
+	Year = {1997}}
+
+@book{cantossanchez97,
+	Author = {Pascual Cantos G{\'o}mez and Aquilino S{\'a}nchez P{\'e}rez},
+	Date-Added = {2009-04-06 20:27:59 -0300},
+	Date-Modified = {2009-04-06 20:30:46 -0300},
+	Publisher = {Atlantis: Revista de la Asociaci{\'o}n Espa{\~n}ola de Estudios Anglo-Norteamericanos},
+	Title = {El Ritmo Incremental De Palabras Nuevas En Los Repertorios De Textos: Estudio Experimental Y Comparativo Basado En Dos Corpus Ling{\"U}{\'I}sticos Equivalentes De Cuatro Millones De Palabras, De Las Lenguas Inglesa Y Espa{\~N}ola Y En Cinco Autores De Ambas Lenguas},
+	Year = {1997}}
+
+@article{biber93,
+	Author = {Douglas Biber},
+	Date-Added = {2009-04-06 20:22:38 -0300},
+	Date-Modified = {2009-04-06 20:23:49 -0300},
+	Journal = {Literary and Linguistic Computin},
+	Title = {Representativeness in Corpus Design},
+	Year = {1993}}
+
+@article{biber90,
+	Author = {Douglas Biber},
+	Date-Added = {2009-04-06 20:08:30 -0300},
+	Date-Modified = {2009-04-06 20:09:33 -0300},
+	Journal = {Literary and Linguistic Computing},
+	Title = {Methodological Issues Regarding Corpus-based Analyses of Linguistic Variation},
+	Year = {1990}}
+
+@book{sinclair97,
+	Author = {John Sinclair},
+	Date-Added = {2009-04-06 20:02:54 -0300},
+	Date-Modified = {2009-04-06 20:04:46 -0300},
+	Title = {Corpus evidence in language description},
+	Year = {1997}}
+
+@book{leech91,
+	Author = {Geoffrey Leech},
+	Date-Added = {2009-04-06 20:00:13 -0300},
+	Date-Modified = {2009-04-06 20:02:26 -0300},
+	Title = {The state of art in corpus linguistics},
+	Year = {1991}}
+
+@article{aston97,
+	Author = {Guy Aston},
+	Date-Added = {2009-04-03 21:28:19 -0300},
+	Date-Modified = {2009-04-03 21:30:01 -0300},
+	Journal = {PALC Conference},
+	Title = {Small and large corpora in language learning},
+	Year = {1997}}
+
+@manual{branco08,
+	Author = {Antonio Branco and Francisco Costa},
+	Date-Added = {2009-04-03 21:25:07 -0300},
+	Date-Modified = {2009-04-03 21:26:37 -0300},
+	Organization = {Department of Informatics of University of Lisboa},
+	Title = {A Computational Grammar for Deep Linguistic Processing of Portuguese: LXGram, version A.4.1},
+	Year = {2008}}
+
+@article{brill95,
+	Author = {Eric Brill},
+	Date-Added = {2009-04-03 21:23:43 -0300},
+	Date-Modified = {2009-04-03 21:24:35 -0300},
+	Journal = {Computational Linguistics},
+	Title = {Transformation-based error-driven learning and natural language processing: a case study in part-of-speech tagging},
+	Year = {1995}}
+
+@article{vera01,
+	Author = {Vera L{\'u}cia Strube de Lima},
+	Date-Added = {2009-04-03 21:21:01 -0300},
+	Date-Modified = {2009-04-03 21:23:07 -0300},
+	Journal = {IX Escola da Inform{\'a}tica da SBC-Sul},
+	Title = {Lingu{\'\i}stica computacional: princ{\'\i}pios e aplica{\c c}{\~o}es},
+	Year = {2001}}
+
+@book{allen95,
+	Author = {James Allen},
+	Date-Added = {2009-04-03 21:19:51 -0300},
+	Date-Modified = {2009-04-03 21:20:56 -0300},
+	Edition = {2nd},
+	Publisher = {The Benjamin/Cummings Publishing Company, Inc.},
+	Title = {Natural Language Understanding},
+	Year = {1995}}
+
+@inproceedings{black93,
+	Address = {Columbus, OH, USA},
+	Author = {Ezra Black and Fred Jelinek and John Lafferty and David     M. Magerman and Robin Mercer and Salim Roukos},
+	Booktitle = {Proceedings of 31st Annual Meeting of the Association for                   Computational Linguistics},
+	Date-Added = {2009-04-03 21:19:04 -0300},
+	Date-Modified = {2009-04-03 21:19:07 -0300},
+	Title = {Towards History-based Grammars: Using Richer Models for     Probabilistic Parsing},
+	Year = 1993}
+
+@unpublished{semanticshare,
+	Author = {Ant{\'o}nio Branco},
+	Date-Added = {2009-04-03 21:17:31 -0300},
+	Date-Modified = {2009-04-06 20:20:32 -0300},
+	Month = {April},
+	Note = {http://semanticshare.di.fc.ul.pt/. ({\'U}ltimo acesso em Abril 2009)},
+	Title = {Semantic Share Project},
+	Year = {2009},
+	Bdsk-Url-1 = {http://semanticshare.di.fc.ul.pt/}}
+
+@book{bick00,
+	Author = {Eckhard Bick},
+	Date-Added = {2009-04-03 21:13:09 -0300},
+	Date-Modified = {2009-04-03 21:16:52 -0300},
+	Publisher = {Aarhus University Press},
+	Title = {The Parsing System PALAVRAS, Automatic Grammatical Analysis of Portuguese in a Contraint Grammar Framework},
+	Year = {2000}}
+
+@phdthesis{bonfante03,
+	Author = {Andr{\'e}ia Gentil Bonfante},
+	Date-Added = {2009-04-03 21:12:14 -0300},
+	Date-Modified = {2009-04-03 21:13:06 -0300},
+	School = {ICMC-USP},
+	Title = {Parsing probabil{\'\i}stico para o Portugu{\^e}s do Brasil},
+	Year = {2003}}
+
+@article{baldridge06,
+	Author = {Benjamim Wing and Jason Baldridge},
+	Date-Added = {2009-04-03 21:09:35 -0300},
+	Date-Modified = {2009-04-03 21:11:28 -0300},
+	Journal = {PROPOR 2006},
+	Title = {Adaptation of Data and Models for Probabilistic Parsing of Portuguese},
+	Year = {2006}}
+
+@phdthesis{prolo03,
+	Author = {Carlos A. Prolo},
+	Date-Added = {2009-04-03 21:07:16 -0300},
+	Date-Modified = {2009-04-03 21:07:50 -0300},
+	School = {Department of Computer and Information Science, University                   of Pennsylvania},
+	Title = {{LR} Parsing for {Tree} {Adjoining} {Grammars} and its Application                   to Corpus-based Natural Language Parsing},
+	Year = {June, 2003}}
+
+@article{charniak97,
+	Author = {Eugene Charniak},
+	Date-Added = {2009-04-03 21:06:15 -0300},
+	Date-Modified = {2009-04-03 21:08:24 -0300},
+	Journal = {AI Magazine},
+	Title = {Statistical Techniques for Natural Language Parsing},
+	Year = {1997}}
+
+@article{bikel04,
+	Author = {Dan Bikel},
+	Date-Added = {2009-04-03 21:02:24 -0300},
+	Date-Modified = {2009-04-03 21:04:42 -0300},
+	Journal = {Computational Linguistics},
+	Title = {Intricacies of Collins' Parsing Model},
+	Year = {2004}}
+
+@inproceedings{collins97,
+	Address = {Madrid, Spain},
+	Author = {Michael Collins},
+	Booktitle = {Proceedings of the 35th Annual Meeting of the Association                   for Computational Linguistics},
+	Date-Added = {2009-04-03 21:00:21 -0300},
+	Date-Modified = {2009-04-03 21:00:37 -0300},
+	Pages = {16-23},
+	Title = {Three Generative, Lexicalised Models for Statistical Parsing},
+	Year = 1997}
+
+@book{sardinha04,
+	Author = {Tony Berber Sardinha},
+	Date-Added = {2009-04-03 20:57:52 -0300},
+	Date-Modified = {2009-04-03 20:58:48 -0300},
+	Publisher = {Manole},
+	Title = {Lingu{\'\i}stica de Corpus},
+	Year = {2004}}
+
+@book{abeille03,
+	Date-Added = {2009-04-03 20:56:49 -0300},
+	Date-Modified = {2009-04-03 20:57:47 -0300},
+	Editor = {Anne Abeill{\'e}},
+	Publisher = {Kluwer Academic Publishers},
+	Title = {Treebanks: Building and Using Parsed Corpora},
+	Year = {2003}}
+
+@inproceedings{black91,
+	Address = {San Mateo, CA, USA},
+	Author = {Ezra Black and Steven Abney and C. Gdaniec and Ralph     Grishman and P. Harrison and Don Hindle and     R. Ingria and Fred Jelinek and Judith Klavans and     Mark Liberman and Mitchell Marcus and Salim Roukos     and Beatrice Santorini and T. Strzalkowski},
+	Booktitle = {Proceedings of the DARPA Speech and Natural Language     Workshop},
+	Date-Added = {2009-04-03 20:53:53 -0300},
+	Date-Modified = {2009-04-03 20:53:58 -0300},
+	Title = {A Procedure for Quantitatively Comparing the Syntactic     Coverage of English Grammars},
+	Year = 1991}
+
+@article{marcus93,
+	Author = {Mitchell P. Marcus and Beatrice Santorini and Mary Ann     Marcinkiewicz},
+	Date-Added = {2009-04-03 20:53:53 -0300},
+	Date-Modified = {2009-04-03 20:54:03 -0300},
+	Journal = {Computational Linguistics},
+	Number = 2,
+	Pages = {313-330},
+	Title = {Building a Large Annotated Corpus of {English}: The {Penn}     {Treebank}},
+	Volume = 19,
+	Year = 1993}
+
+@inproceedings{marcus94,
+	Author = {Mitchell Marcus and Grace Kim and Mary Ann Marcinkiewicz and     Robert MacIntyre and Ann Bies and Mark Ferguson and     Karen Katz and Britta Schasberger},
+	Booktitle = {Proceedings of the 1994 Human Language Technology Workshop},
+	Date-Added = {2009-04-03 20:53:53 -0300},
+	Date-Modified = {2009-04-03 20:54:08 -0300},
+	Title = {The {Penn} {Treebank}: Annotating Predicate Argument Structure},
+	Year = 1994}
+
+@book{manning99,
+	Author = {Christopher D. Manning and Hinrich Sch{\"u}tze},
+	Date-Added = {2009-04-03 20:35:34 -0300},
+	Date-Modified = {2009-04-03 20:36:58 -0300},
+	Publisher = {The MIT Press, Cambridge, MA},
+	Title = {Foundations of Statistical Natural Language Processing},
+	Year = {1999}}
+
+@phdthesis{collins99,
+	Author = {Michael Collins},
+	Date-Added = {2009-04-03 20:25:39 -0300},
+	Date-Modified = {2009-04-03 20:37:02 -0300},
+	Number = {MS-CIS-90-48, LINC LAB179},
+	School = {Department of Computer and Information Science, University of Pennsylvania},
+	Title = {Head-Driven Statistical Models for Natural Language Parsing},
+	Year = 1999}
+
+@book{jurafsky,
+	Author = {Daniel Jurafsky and James H. Martin},
+	Date-Added = {2009-04-03 20:25:26 -0300},
+	Date-Modified = {2009-04-03 20:37:07 -0300},
+	Publisher = {Prentice-Hall},
+	Title = {Speech and Language Processing},
+	Year = {2000}}
