@@ -1,47 +1,48 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: Artigo_main.aux
 The style file: abnt.bst
-I found no \citation commands---while reading file Artigo_main.aux
 Database file #1: references.bib
-You've used 0 entries,
+Warning--": elements of reusable object-oriented software}" isn't a brace-balanced string for entry gamma95
+while executing--line 963 of file abnt.bst
+You've used 3 entries,
             1445 wiz_defined-function locations,
-            348 strings with 2166 characters,
-and the built_in function-call counts, 14 in all, are:
-= -- 0
+            363 strings with 2619 characters,
+and the built_in function-call counts, 1636 in all, are:
+= -- 138
 > -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 3
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+< -- 24
++ -- 75
+- -- 3
+* -- 96
+:= -- 113
+add.period$ -- 14
+call.type$ -- 3
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 3
+duplicate$ -- 210
+empty$ -- 139
+format.name$ -- 27
+if$ -- 349
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 9
+num.names$ -- 6
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 15
 quote$ -- 0
-skip$ -- 1
+skip$ -- 92
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
+substring$ -- 66
+swap$ -- 145
+text.length$ -- 3
+text.prefix$ -- 6
 top$ -- 0
-type$ -- 0
+type$ -- 24
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 12
+width$ -- 6
+write$ -- 5
+(There was 1 warning)

@@ -1,3 +1,15 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{WOR01}
+
+\bibitem[GAM95]{gamma95} Gamma, Erich; Helm, Richard; Johnson, Ralph;
+  Vlissides, John~M. {\bf {Design patterns}: elements of reusable
+  object-oriented software}.  Addisonwesley Reading, MA, 1995.
+
+\bibitem[SAU01]{fact2} Sauve, Jacques~Philippe. {\bf Factory method}. 2001.
+  (http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/factory.htm (Ultimo
+  acesso Agosto de 2010)).
+
+\bibitem[WOR01]{fact1} World, Java. {\bf Factory methods}. 2001.
+  (http://www.javaworld.com/javaworld/javaqa/2001-05/02-qa-0511-factory.html
+  (Ultimo acesso Agosto de 2010)).
 
 \end{thebibliography}

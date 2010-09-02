@@ -1,3 +1,35 @@
+@unpublished{fact1,
+	Author = {Java World},
+	Month = {Novembro},
+	Note = {http://www.javaworld.com/javaworld/javaqa/2001-05/02-qa-0511-factory.html (Ultimo acesso Agosto de 2010)},
+	Title = {Factory methods},
+	Year = {2001},
+	Bdsk-Url-1 = {http://www.javaworld.com/javaworld/javaqa/2001-05/02-qa-0511-factory.html}}
+
+
+@unpublished{fact2,
+	Author = {Jacques Philippe Sauve},
+	Note = {http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/factory.htm (Ultimo acesso Agosto de 2010)},
+	Title = {Factory Method},
+	Month = {Novembro},
+	Year = {2001},
+	Bdsk-Url-1 = {http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/factory.htm }}
+
+@book{gamma95,
+  title={{Design patterns: elements of reusable object-oriented software}},
+  author={Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides},
+  year={1995},
+  publisher={Addisonwesley Reading,  MA}
+}
+
+
+@book{gamma1995design,
+  title={{Design patterns: elements of reusable object-oriented software}},
+  author={Gamma, E. and Helm, R. and Johnson, R. and Vlissides, J.},
+  year={1995},
+  publisher={Addison-wesley Reading, MA}
+}
+
 @unpublished{sqlserver,
 	Author = {Microsoft},
 	Month = {Julho},

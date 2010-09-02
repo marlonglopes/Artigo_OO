@@ -5,7 +5,7 @@ Cada padrão descreve um problema que ocorre ao longo do tempo
 mais de uma vez em nosso meio, e então descreve o núcleo da solução
 para esse problema, de tal forma que você pode usar esta solução um milhão de vezes
 mais, sem nunca fazê-lo da mesma forma duas vezes. 
-Mesmo falando em padrões de construção de edifícios, o que ele se diz também é verdade para padrões de construção de software orientado a objeto. Nossas soluções são expressas em termos de objetos e interfaces em vez de paredes e portas, mas no cerne dos dois tipos de padrões existe uma solução para um problema em um contexto.
+Mesmo falando em padrões de construção de edifícios, o que ele se diz também é verdade para padrões de construção de software orientado a objeto. Nossas soluções são expressas em termos de objetos e interfaces em vez de paredes e portas, mas no cerne dos dois tipos de padrões existe uma solução para um problema em um contexto.\cite{gamma95}
 
 Em geral, um padrão tem quatro elementos essenciais:
 
@@ -17,8 +17,7 @@ soluções, e suas consequências em uma ou duas palavras. A nomeação de um pa
 aumenta o nosso vocabulário de design. Ela nos permite projetar em um nível mais elevado de
 abstração. Ter um vocabulário de padrões permite-nos falar sobre eles com
 nossos colegas, em nossa documentação, e até mesmo para nós mesmos. Torna-se
-mais fácil pensar sobre os projetos e comunicá-las para os outros. Encontrar bons nomes tem sido uma das partes mais difíceis de desenvolver
-nosso catálogo.
+mais fácil pensar sobre os projetos e comunicá-las para os outros. Encontrar bons nomes tem sido uma das partes mais difíceis de desenvolver nosso catálogo.\cite{gamma95}
 
 	\item 
 

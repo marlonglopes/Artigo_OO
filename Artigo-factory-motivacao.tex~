@@ -28,7 +28,7 @@ O padrão Factory Method oferece uma solução. Ele encapsula o conhecimento de
 que subclasse Documento deve criar e move este conhecimento para fora do \emph{framework}.
 
 \begin{center}
-	\includegraphics[scale=0.50]{Figuras/image1.jpg}
+	\includegraphics[scale=0.40]{Figuras/image1.jpg}
 	\captionof{figure}{\label{diagrama1} Representação da estrutura para criação de documentos}
 	\label{fig:diagrama1}
 \end{center}
@@ -40,7 +40,7 @@ responsável por "produzir" um objeto.
 \subsection{Aplicação}
 \label{sub:fac_aplica}
 
-Use o padrão \emph{Factory pattern} quando
+Se usa \emph{Factory pattern} quando:
 
 \begin{itemize}
 	\item Quando uma classe (o criador) não pode antecipar a classe dos objetos que deve criar
@@ -49,14 +49,6 @@ Use o padrão \emph{Factory pattern} quando
 queremos localizar num ponto único a conhecimento de qual subclasse está sendo usada
 
 \end{itemize}
-
-
-
-\begin{center}
-	\includegraphics[scale=0.50]{Figuras/image2.jpg}
-	\captionof{figure}{\label{diagrama2} Representação da estrutura de classes utilizando \emph{factory method}}
-	\label{fig:diagrama2}
-\end{center}
 
 
 \subsection{Problema}
@@ -76,7 +68,7 @@ base em interfaces. Assim, vários tipos de objetos diferentes podem ser associa
 essa variável. Outra razão é a necessidade de inicializar o objeto instanciado antes de ser
 atribuído à variável. Importante notar
 que esta inicialização não depende do ambiente onde o objeto será utilizado, mas apenas
-da estrutura do próprio objeto.
+da estrutura do próprio objeto.\cite{fact1}
 
 
 
@@ -98,7 +90,23 @@ objeto criador do produto desejado
 \subsection{Diagrama de classes}
 \label{sub:fac_diagrama}
 
+\begin{center}
+	\includegraphics[scale=0.40]{Figuras/image2.jpg}
+	\captionof{figure}{\label{diagrama2} Representação da estrutura de classes utilizando \emph{factory method}}
+	\label{fig:diagrama2}
+\end{center}
 
+\begin{itemize}
+	\item \emph{Product}: define a interface dos objetos criados pelo \emph{Factory Method}
+	\item \emph{ConcreteProduct}: implementa a interface \emph{Product}
+	\item \emph{Creator}: declara o \emph{Factory Method} que retorna um objeto do tipo \emph{Product}
+		\begin{itemize}
+			\item  Às vezes, o \emph{Creator} não é apenas uma interface, mas pode envolver uma
+classe concreta que tenha uma implementação default para o \emph{Factory Method} para retornar um objeto com algum tipo \emph{ConcreteProduct} default
+			\item Pode chamar o \emph{Factory Method} para criar um produto do tipo \emph{Product}
+		\end{itemize}
+	\item \emph{ConcreteCreator}: faz override do \emph{Factory Method} para retornar uma instância de \emph{ConcreteProduct}
+\end{itemize}
 
 
 \subsection{Exemplos de uso}
@@ -107,6 +115,17 @@ objeto criador do produto desejado
 \subsection{Benefícios}
 \label{sub:fac_beneficios}
 
+\begin{itemize}
+	\item Criação de objetos é desacoplada do conhecimento do tipo concreto do objeto
+	\item Conecta hierarquias de classe paralelas
+	\item Facilita a extensibilidade
+\end{itemize}
 
+\emph{Factory Methods} eliminam a necessidade de colocar classes específicas da aplicação no código.\cite{fact2}
 
-
+\begin{itemize}
+	\item O código só lida com a interface \emph{Product}
+	\item O código pode, portanto funcionar com qualquer classe \emph{ConcreteProduct} Provê ganchos (\emph{Hook Methods}) para subclasses.
+	\item Criar objetos dentro de uma classe com um \emph{Factory Method} é sempre mais flexível do que criar objetos diretamente.
+	\item O \emph{Factory Method} provê um gancho para que subclasses forneçam uma versão estendida de um objeto
+\end{itemize}
