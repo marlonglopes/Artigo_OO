@@ -67,9 +67,9 @@ Este artigo apresenta uma descrição sucinta do padrão de projetos orientado a
 \input{Artigo-factory-motivacao}
 
 
-%\bibliographystyle{abnt}
+\bibliographystyle{abnt}
 
-%\renewcommand{\bibname}{Referência Bibliografia}
-%\bibliography{references}
+\renewcommand{\bibname}{Referência Bibliografia}
+\bibliography{references}
 
 \end{document}

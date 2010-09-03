@@ -1,7 +1,7 @@
-O padrão Factory Method está relacionado a todos os outros padrões que conduzam
-algum tipo de construção encapsulada de objetos. Além de Factory os padrões Iterator,
+O padrão \emph{Factory Method} está relacionado a todos os outros padrões que conduzam
+algum tipo de construção encapsulada de objetos. Além de \emph{factory} os padrões Iterator,
 Singleton , Builder, Prototype e Bridge- para citar alguns – estão relacionados ao padrão
-Factory Method.
+\emph{Factory Method}.
 
 Define uma interface para a criação de um objeto, mas deixa que as subclasses
 decidam qual a classe instanciar. Permite a uma classe delegar a instanciação para as
@@ -24,7 +24,7 @@ classe Application é responsável pela gestão de documentos e como criá-los a
 Como subclasse do documento em particular para instanciar é específico do aplicativo,
 a classe Application não consegue prever que documento deve criar, a classe Application só sabe quando um novo documento deve ser criado, não o tipo do documento para criar. Isso cria um dilema: O \emph{framework} deve instanciar classes, mas só sabe sobre classes abstratas, que não pode instanciar.\cite{gamma95}
 
-O padrão Factory Method oferece uma solução. Ele encapsula o conhecimento de
+O padrão \emph{Factory Method} oferece uma solução. Ele encapsula o conhecimento de
 que subclasse Documento deve criar e move este conhecimento para fora do \emph{framework}.\cite{gamma95}
 
 \begin{center}
@@ -54,8 +54,7 @@ queremos localizar num ponto único a conhecimento de qual subclasse está sendo
 \subsection{Problema}
 \label{sub:fac_problema}
 
-Uma classe precisa instanciar a derivação de uma outra, mas não sabe qual. O Factory
-Method permite que uma classe derivada tome essa decisão.
+Uma classe precisa instanciar a derivação de uma outra, mas não sabe qual. O \emph{Factory Method} permite que uma classe derivada tome essa decisão.
 
 \subsection{Solução}
 \label{sub:fac_solucao}
@@ -79,9 +78,9 @@ da estrutura do próprio objeto.\cite{fact1}\cite{gamma95}
 	\item É possível criar um objeto sem ter conhecimento algum de sua classe concreta?
 	\item Esse conhecimento deve estar em alguma parte do sistema, mas não precisa estar
 no cliente
-	\item FactoryMethod define uma interface comum para criar objetos
+	\item \emph{FactoryMethod} define uma interface comum para criar objetos
 	\item O objeto específico é determinado nas diferentes implementações dessa interface
-	\item O cliente do FactoryMethod precisa saber sobre implementações concretas do
+	\item O cliente do \emph{FactoryMethod} precisa saber sobre implementações concretas do
 objeto criador do produto desejado
 
 \end{itemize}
