@@ -17,7 +17,7 @@ soluções, e suas consequências em uma ou duas palavras. A nomeação de um pa
 aumenta o nosso vocabulário de design. Ela nos permite projetar em um nível mais elevado de
 abstração. Ter um vocabulário de padrões permite-nos falar sobre eles com
 nossos colegas, em nossa documentação, e até mesmo para nós mesmos. Torna-se
-mais fácil pensar sobre os projetos e comunicá-las para os outros. Encontrar bons nomes tem sido uma das partes mais difíceis de desenvolver nosso catálogo.
+mais fácil pensar sobre os projetos e comunicar-se com as pessoas envolvidas. Encontrar bons nomes tem sido uma das partes mais difíceis de desenvolver nosso catálogo.
 
 	\item 
 
@@ -68,7 +68,7 @@ Os padrões hoje existentes estão divididos em três grupos:\cite{gamma95}
 
 		\begin{itemize}
 			\item 
-				\emph{Abstract} factory, Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.\\
+				\emph{Abstract factory}, Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.\\
 
 			\item 
 				\emph{Builder}, Separa a construção de um objeto complexo da sua representação para que
