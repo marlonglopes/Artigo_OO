@@ -54,8 +54,7 @@ queremos localizar num ponto único a conhecimento de qual subclasse está sendo
 \subsection{Problema}
 \label{sub:fac_problema}
 
-Uma classe precisa instanciar a derivação de uma outra, mas não sabe qual. O Factory
-Method permite que uma classe derivada tome essa decisão.
+Uma classe precisa instanciar a derivação de uma outra, mas não sabe qual. O \emph{Factory Method} permite que uma classe derivada tome essa decisão.
 
 \subsection{Solução}
 \label{sub:fac_solucao}
@@ -79,9 +78,9 @@ da estrutura do próprio objeto.\cite{fact1}\cite{gamma95}
 	\item É possível criar um objeto sem ter conhecimento algum de sua classe concreta?
 	\item Esse conhecimento deve estar em alguma parte do sistema, mas não precisa estar
 no cliente
-	\item FactoryMethod define uma interface comum para criar objetos
+	\item \emph{FactoryMethod} define uma interface comum para criar objetos
 	\item O objeto específico é determinado nas diferentes implementações dessa interface
-	\item O cliente do FactoryMethod precisa saber sobre implementações concretas do
+	\item O cliente do \emph{FactoryMethod} precisa saber sobre implementações concretas do
 objeto criador do produto desejado
 
 \end{itemize}
@@ -108,12 +107,30 @@ classe concreta que tenha uma implementação default para o \emph{Factory Metho
 	\item \emph{ConcreteCreator}: faz override do \emph{Factory Method} para retornar uma instância de \emph{ConcreteProduct}
 \end{itemize}
 
+O criador confia em suas subclasses para definir o \emph{Factory Method} que retorne uma instância da \emph{ConcreteProduct} adequado.
 
-\subsection{Exemplos de uso}
-\label{sub:fac_uso}
 
-\subsection{Benefícios}
-\label{sub:fac_beneficios}
+\subsection{Consequencias e benefícios}
+\label{sub:fac_conse+benef}
+
+\emph{Factory Method} elimina a necessidade de vincular as classes específicas do aplicativo em seu código. O código lida apenas com a interface \emph{Product}, pois pode trabalhar com qualquer classe \emph{ConcreteProduct} definida pelo usuário.
+
+Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
+
+Se o cliente tem que criar de qualquer maneira uma subclasse da classe \emph{Creator}, usar subclasses pode ser uma boa solução, mas de outra maneira o cliente tem que lidar com outro ponto da evolução.
+
+Aqui estão duas consequências adicionais do padrão \emph{Factory Method}:
+
+\begin{enumerate}
+	\item Fornecer ganchos para subclasses. Criação de objetos dentro de uma classe com \emph{factory methods} é sempre mais flexível do que criar um objeto diretamente. \emph{Factory Method} da para subclasses um gancho para fornecer uma versão estendida
+de um objeto.
+
+No exemplo do documento, a classe \emph{Document} poderia definir um \emph{factory method} chamado \emph{CreateFileDialog} que cria uma caixa de dialogo padrão na abertura de documentos existentes.
+
+Uma subclasse \emph{Document} pode definir uma caixa de dialogo específico do aplicativo, substituindo este \emph{factory method}. Neste caso, o \emph{factory method} não é abstrato, mas fornece implementação default.
+
+	\item
+\end{enumerate}
 
 \begin{itemize}
 	\item Criação de objetos é desacoplada do conhecimento do tipo concreto do objeto
@@ -129,3 +146,7 @@ classe concreta que tenha uma implementação default para o \emph{Factory Metho
 	\item Criar objetos dentro de uma classe com um \emph{Factory Method} é sempre mais flexível do que criar objetos diretamente.
 	\item O \emph{Factory Method} provê um gancho para que subclasses forneçam uma versão estendida de um objeto
 \end{itemize}
+
+
+\subsection{Exemplos de uso}
+\label{sub:fac_uso}
