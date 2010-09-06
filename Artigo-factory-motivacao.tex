@@ -43,10 +43,9 @@ responsável por "produzir" um objeto.\cite{gamma95}
 Se usa \emph{Factory pattern} quando:\cite{gamma95}
 
 \begin{itemize}
-	\item Quando uma classe (o criador) não pode antecipar a classe dos objetos que deve criar.
-.	\item Quando Uma classe quer que suas subclasses possam especificar os objetos que ele cria.
-	\item Quando classes delegam responsabilidade para uma entre várias subclasses de apoio e
-queremos localizar num ponto único a conhecimento de qual subclasse está sendo usada.
+	\item uma classe (o criador) não pode antecipar a classe dos objetos que deve criar.
+.	\item uma classe quer que suas subclasses possam especificar os objetos que criam.
+	\item uma classe quiser localizar o conhecimento a respeito de subclasses às quais são delegadas responsabilidades específicas (em hierarquias de classes paralelas)
 
 \end{itemize}
 
@@ -97,7 +96,7 @@ objeto criador do produto desejado
 
 \begin{itemize}
 	\item \emph{Product}: define a interface dos objetos criados pelo \emph{Factory Method}
-	\item \emph{ConcreteProduct}: implementa a interface \emph{Product}
+	\item \emph{ConcreteProduct}: implementa a interface definida em \emph{Product}
 	\item \emph{Creator}: declara o \emph{Factory Method} que retorna um objeto do tipo \emph{Product}
 		\begin{itemize}
 			\item  Às vezes, o \emph{Creator} não é apenas uma interface, mas pode envolver uma
@@ -107,7 +106,7 @@ classe concreta que tenha uma implementação default para o \emph{Factory Metho
 	\item \emph{ConcreteCreator}: faz override do \emph{Factory Method} para retornar uma instância de \emph{ConcreteProduct}
 \end{itemize}
 
-O criador confia em suas subclasses para definir o \emph{Factory Method} que retorne uma instância da \emph{ConcreteProduct} adequado.
+O \emph{Creator} depende de suas subclasses para definir o \emph{Factory Method} que retorne uma instância do \emph{ConcreteProduct} apropriado.
 
 
 \subsection{Consequencias e benefícios}
@@ -115,9 +114,9 @@ O criador confia em suas subclasses para definir o \emph{Factory Method} que ret
 
 \emph{Factory Method} elimina a necessidade de vincular as classes específicas do aplicativo em seu código. O código lida apenas com a interface \emph{Product}, pois pode trabalhar com qualquer classe \emph{ConcreteProduct} definida pelo usuário.
 
-Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
-
 Se o cliente tem que criar de qualquer maneira uma subclasse da classe \emph{Creator}, usar subclasses pode ser uma boa solução, mas de outra maneira o cliente tem que lidar com outro ponto da evolução.
+
+Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
 
 Aqui estão duas consequências adicionais do padrão \emph{Factory Method}:
 
