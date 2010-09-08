@@ -109,14 +109,25 @@ classe concreta que tenha uma implementação default para o \emph{Factory Metho
 O \emph{Creator} depende de suas subclasses para definir o \emph{Factory Method} que retorne uma instância do \emph{ConcreteProduct} apropriado.
 
 
-\subsection{Consequencias e benefícios}
+\subsection{Benefícios e consequencias}
 \label{sub:fac_conse+benef}
 
-\emph{Factory Method} elimina a necessidade de vincular as classes específicas do aplicativo em seu código. O código lida apenas com a interface \emph{Product}, pois pode trabalhar com qualquer classe \emph{ConcreteProduct} definida pelo usuário.
+\emph{Factory Method} elimina a necessidade de vincular as classes específicas do aplicativo em seu código. O código lida apenas com a interface \emph{Product}, pois pode trabalhar com qualquer classe \emph{ConcreteProduct} definida pelo usuário. Isso diminui o acoplamento, torna as classes mais flexíveis e amarra apenas a estrutura, transferindo a responsabilidade para subclasses
 
-Se o cliente tem que criar de qualquer maneira uma subclasse da classe \emph{Creator}, usar subclasses pode ser uma boa solução, mas de outra maneira o cliente tem que lidar com outro ponto da evolução.
+\emph{Factory Methods} eliminam a necessidade de colocar classes específicas da aplicação no código.\cite{fact2}
 
-Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
+\begin{itemize}
+	\item O código só lida com a interface \emph{Product}
+	\item O código pode, portanto funcionar com qualquer classe \emph{ConcreteProduct} Provê ganchos (\emph{Hook Methods}) para subclasses.
+	\item Criar objetos dentro de uma classe com um \emph{Factory Method} é sempre mais flexível do que criar objetos diretamente.
+	\item O \emph{Factory Method} provê um gancho para que subclasses forneçam uma versão estendida de um objeto
+
+
+	\item Criação de objetos é desacoplada do conhecimento do tipo concreto do objeto
+	\item Conecta hierarquias de classe paralelas
+	\item Facilita a extensibilidade
+
+\end{itemize}
 
 Aqui estão duas consequências adicionais do padrão \emph{Factory Method}:
 
@@ -129,22 +140,22 @@ No exemplo do documento, a classe \emph{Document} poderia definir um \emph{facto
 Uma subclasse \emph{Document} pode definir uma caixa de dialogo específico do aplicativo, substituindo este \emph{factory method}. Neste caso, o \emph{factory method} não é abstrato, mas fornece implementação default.
 
 	\item
+Conecta hierarquia de classes paralelas, nos exemplos que temos considerado até agora, o \emph{factory method} é chamado apenas por \emph{Creators}. Mas isso não tem que ser o caso, os clientes podem encontrar \emph{factory methods} úteis, especialmente no caso de hierarquias de classes paralelas.
+
+Hierarquias de classes paralelas resulta de quando uma classe delega algumas de suas responsabilidades para uma classe separada.
+Considere figuras que podem ser manipuladas de forma interativa, ou seja, elas podem ser esticadas, movidas, ou giradas usando o mouse. A execução de tais interações nem sempre é fácil. Muitas vezes isso exige armazenamento e atualização das informações que registra o estado da manipulação em um determinado tempo.
+
+Este estado é necessária apenas durante manipulação e, portanto, não precisa ser mantido no objeto. Além disso, diferentes objetos se comportam de maneira diferente quando o usuário as manipula. Para exemplo, esticar uma figura da linha poderia ter o efeito de mover um ponto final, considerando um valor de alongamento o texto pode mudar o seu espaçamento entre as linhas.
+
+Com estas restrições, é melhor usar um objeto Manipulator separado que implementa a interação e mantém registro de qualquer
+Estado de manipulação específica necessário. 
+Diferentes figuras usarão diferentes manipuladores para lidar com interações específicas. O hierarquia de classes manipulatoras resultante(pelo menos parcialmente)é ilistrada na figura x:
+
 \end{enumerate}
 
-\begin{itemize}
-	\item Criação de objetos é desacoplada do conhecimento do tipo concreto do objeto
-	\item Conecta hierarquias de classe paralelas
-	\item Facilita a extensibilidade
-\end{itemize}
+Se o cliente tem que criar de qualquer maneira uma subclasse da classe \emph{Creator}, usar subclasses pode ser uma boa solução, mas de outra maneira o cliente tem que lidar com outro ponto da evolução.
 
-\emph{Factory Methods} eliminam a necessidade de colocar classes específicas da aplicação no código.\cite{fact2}
-
-\begin{itemize}
-	\item O código só lida com a interface \emph{Product}
-	\item O código pode, portanto funcionar com qualquer classe \emph{ConcreteProduct} Provê ganchos (\emph{Hook Methods}) para subclasses.
-	\item Criar objetos dentro de uma classe com um \emph{Factory Method} é sempre mais flexível do que criar objetos diretamente.
-	\item O \emph{Factory Method} provê um gancho para que subclasses forneçam uma versão estendida de um objeto
-\end{itemize}
+Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
 
 
 \subsection{Exemplos de uso}
