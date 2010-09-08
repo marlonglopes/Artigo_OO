@@ -170,3 +170,30 @@ sobreescrevem esse método para retornar uma instância da subclasse \emph{Manip
 
 \subsection{Exemplos de uso}
 \label{sub:fac_uso}
+
+Nesta seção será ilustrada a utilização de \emph{Factory Method} em uma aplicação de criação de planta baixa de apartamentos. As classes não são implementadas em detalhes, o objetivo é simplesmente estruturar o código segundo o padrão desenvolvido até o momento. 
+
+\paragraph{Classe Produto\\}
+			\includegraphics[scale=0.50]{Imagens/codigo_produto_01.jpg}
+
+\paragraph{Classes de produto concretas\\}		
+	 
+			\includegraphics[scale=0.50]{Imagens/codigo_produto_concreto_01.jpg}
+
+			\includegraphics[scale=0.50]{Imagens/codigo_produto_concreto_02.jpg}
+				
+			\includegraphics[scale=0.50]{Imagens/codigo_produto_concreto_03.jpg}
+
+			\includegraphics[scale=0.50]{Imagens/codigo_produto_concreto_04.jpg}
+
+			\includegraphics[scale=0.50]{Imagens/codigo_produto_concreto_05.jpg}
+		
+\paragraph{Classe criadora\\}
+			\includegraphics[scale=0.50]{Imagens/codigo_creator_01.jpg}
+
+\paragraph{Classe criadora concreta\\}		
+			\includegraphics[scale=0.50]{Imagens/codigo_creator_concreto_01.jpg}
+
+\paragraph{Esse é o diagrama que corresponde aos códigos acima\\}		
+			\includegraphics[scale=0.30]{Imagens/diagrama.jpg}
+

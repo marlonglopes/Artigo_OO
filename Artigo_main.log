@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.20)  7 SEP 2010 21:27
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.20)  7 SEP 2010 22:28
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/administrador/Desktop/Artigo_OO/Artigo_main.tex"}
@@ -760,15 +760,62 @@ File: Figuras/hier_class_par.jpg Graphic file (type jpg)
 <use Figuras/hier_class_par.jpg>
 Underfull \vbox (badness 1748) has occurred while \output is active []
 
- [5])
-(/home/administrador/Desktop/Artigo_OO/Artigo_main.bbl) [6 </home/administrador
-/Desktop/Artigo_OO/Figuras/hier_class_par.jpg>]
+ [5]
+<Imagens/codigo_produto_01.jpg, id=29, 703.62875pt x 380.42125pt>
+File: Imagens/codigo_produto_01.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_produto_01.jpg>
+<Imagens/codigo_produto_concreto_01.jpg, id=30, 574.145pt x 206.7725pt>
+File: Imagens/codigo_produto_concreto_01.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_produto_concreto_01.jpg>
+<Imagens/codigo_produto_concreto_02.jpg, id=31, 358.33875pt x 84.315pt>
+File: Imagens/codigo_produto_concreto_02.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_produto_concreto_02.jpg> [6 </home/administrador/Desktop/Ar
+tigo_OO/Figuras/hier_class_par.jpg> </home/administrador/Desktop/Artigo_OO/Imag
+ens/codigo_produto_01.jpg> </home/administrador/Desktop/Artigo_OO/Imagens/codig
+o_produto_concreto_01.jpg>]
+<Imagens/codigo_produto_concreto_03.jpg, id=35, 423.5825pt x 494.84875pt>
+File: Imagens/codigo_produto_concreto_03.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_produto_concreto_03.jpg>
+<Imagens/codigo_produto_concreto_04.jpg, id=36, 386.44376pt x 88.33pt>
+File: Imagens/codigo_produto_concreto_04.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_produto_concreto_04.jpg>
+<Imagens/codigo_produto_concreto_05.jpg, id=37, 394.47375pt x 87.32625pt>
+File: Imagens/codigo_produto_concreto_05.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_produto_concreto_05.jpg>
+<Imagens/codigo_creator_01.jpg, id=38, 541.02126pt x 783.92876pt>
+File: Imagens/codigo_creator_01.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_creator_01.jpg>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_02.j
+pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_03.j
+pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_04.j
+pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_05.j
+pg>]
+<Imagens/codigo_creator_concreto_01.jpg, id=43, 440.64626pt x 140.525pt>
+File: Imagens/codigo_creator_concreto_01.jpg Graphic file (type jpg)
+
+<use Imagens/codigo_creator_concreto_01.jpg>
+<Imagens/diagrama.jpg, id=44, 1382.16376pt x 425.59pt>
+File: Imagens/diagrama.jpg Graphic file (type jpg)
+
+<use Imagens/diagrama.jpg>) [8 </home/administrador/Desktop/Artigo_OO/Imagens/c
+odigo_creator_01.jpg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_cre
+ator_concreto_01.jpg> </home/administrador/Desktop/Artigo_OO/Imagens/diagrama.j
+pg>] (/home/administrador/Desktop/Artigo_OO/Artigo_main.bbl) [9]
 (/home/administrador/Desktop/Artigo_OO/Artigo_main.aux) ) 
 Here is how much of TeX's memory you used:
- 5091 strings out of 94074
- 68500 string characters out of 1165153
+ 5141 strings out of 94074
+ 70199 string characters out of 1165153
  129549 words of memory out of 1500000
- 8267 multiletter control sequences out of 10000+50000
+ 8307 multiletter control sequences out of 10000+50000
  25491 words of font info for 50 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  43i,10n,40p,531b,320s stack positions out of 5000i,500n,6000p,200000b,5000s
@@ -781,9 +828,9 @@ elvetic/uhvbo8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-t
 exlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Artigo_main.pdf (6 pages, 210754 bytes).
+Output written on Artigo_main.pdf (9 pages, 516282 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -67,7 +67,7 @@ This article presents a brief description of object-oriented project pattern cal
 \label{sec:factory1}
 \input{Artigo-factory-motivacao}
 
-
+\newline
 \bibliographystyle{abnt}
 
 \renewcommand{\bibname}{Referência Bibliografia}
