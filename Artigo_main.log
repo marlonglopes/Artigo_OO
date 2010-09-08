@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.20)  7 SEP 2010 22:28
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.5.20)  8 SEP 2010 17:43
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/administrador/Desktop/Artigo_OO/Artigo_main.tex"}
@@ -761,7 +761,7 @@ File: Figuras/hier_class_par.jpg Graphic file (type jpg)
 Underfull \vbox (badness 1748) has occurred while \output is active []
 
  [5]
-<Imagens/codigo_produto_01.jpg, id=29, 703.62875pt x 380.42125pt>
+<Imagens/codigo_produto_01.jpg, id=29, 705.63625pt x 381.425pt>
 File: Imagens/codigo_produto_01.jpg Graphic file (type jpg)
 
 <use Imagens/codigo_produto_01.jpg>
@@ -769,13 +769,14 @@ File: Imagens/codigo_produto_01.jpg Graphic file (type jpg)
 File: Imagens/codigo_produto_concreto_01.jpg Graphic file (type jpg)
 
 <use Imagens/codigo_produto_concreto_01.jpg>
-<Imagens/codigo_produto_concreto_02.jpg, id=31, 358.33875pt x 84.315pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 </home/administrador/Desktop/Artigo_OO/Figuras/hier_class_par.jpg> </home/a
+dministrador/Desktop/Artigo_OO/Imagens/codigo_produto_01.jpg>]
+<Imagens/codigo_produto_concreto_02.jpg, id=34, 358.33875pt x 84.315pt>
 File: Imagens/codigo_produto_concreto_02.jpg Graphic file (type jpg)
 
-<use Imagens/codigo_produto_concreto_02.jpg> [6 </home/administrador/Desktop/Ar
-tigo_OO/Figuras/hier_class_par.jpg> </home/administrador/Desktop/Artigo_OO/Imag
-ens/codigo_produto_01.jpg> </home/administrador/Desktop/Artigo_OO/Imagens/codig
-o_produto_concreto_01.jpg>]
+<use Imagens/codigo_produto_concreto_02.jpg>
 <Imagens/codigo_produto_concreto_03.jpg, id=35, 423.5825pt x 494.84875pt>
 File: Imagens/codigo_produto_concreto_03.jpg Graphic file (type jpg)
 
@@ -788,13 +789,14 @@ File: Imagens/codigo_produto_concreto_04.jpg Graphic file (type jpg)
 File: Imagens/codigo_produto_concreto_05.jpg Graphic file (type jpg)
 
 <use Imagens/codigo_produto_concreto_05.jpg>
-<Imagens/codigo_creator_01.jpg, id=38, 541.02126pt x 783.92876pt>
+<Imagens/codigo_creator_01.jpg, id=38, 544.0325pt x 784.9325pt>
 File: Imagens/codigo_creator_01.jpg Graphic file (type jpg)
 
 <use Imagens/codigo_creator_01.jpg>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_02.j
+ [7 </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_01.j
+pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_02.j
 pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_03.j
 pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_04.j
 pg> </home/administrador/Desktop/Artigo_OO/Imagens/codigo_produto_concreto_05.j
@@ -828,7 +830,7 @@ elvetic/uhvbo8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-t
 exlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Artigo_main.pdf (9 pages, 516282 bytes).
+Output written on Artigo_main.pdf (9 pages, 517644 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
