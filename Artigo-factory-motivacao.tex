@@ -66,7 +66,7 @@ base em interfaces. Assim, vários tipos de objetos diferentes podem ser associa
 essa variável. Outra razão é a necessidade de inicializar o objeto instanciado antes de ser
 atribuído à variável. Importante notar
 que esta inicialização não depende do ambiente onde o objeto será utilizado, mas apenas
-da estrutura do próprio objeto.\cite{fact1}\cite{gamma95}
+da estrutura do próprio objeto.\cite{fact1} \cite{gamma95}
 
 
 
@@ -108,11 +108,15 @@ classe concreta que tenha uma implementação default para o \emph{Factory Metho
 
 O \emph{Creator} depende de suas subclasses para definir o \emph{Factory Method} que retorne uma instância do \emph{ConcreteProduct} apropriado.
 
+Se o cliente tem que criar de qualquer maneira uma subclasse da classe \emph{Creator}, usar subclasses pode ser uma boa solução, mas de outra maneira o cliente tem que lidar com outro ponto da evolução.
+
+Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
+
 
 \subsection{Benefícios e consequencias}
 \label{sub:fac_conse+benef}
 
-\emph{Factory Method} elimina a necessidade de vincular as classes específicas do aplicativo em seu código. O código lida apenas com a interface \emph{Product}, pois pode trabalhar com qualquer classe \emph{ConcreteProduct} definida pelo usuário. Isso diminui o acoplamento, torna as classes mais flexíveis e amarra apenas a estrutura, transferindo a responsabilidade para subclasses
+\emph{Factory Method} elimina a necessidade de vincular as classes específicas do aplicativo em seu código. O código lida apenas com a interface \emph{Product}, pois pode trabalhar com qualquer classe \emph{ConcreteProduct} definida pelo usuário. Isso diminui o acoplamento, torna as classes mais flexíveis e amarra apenas a estrutura, transferindo a responsabilidade para subclasses.\cite{gamma95}
 
 \emph{Factory Methods} eliminam a necessidade de colocar classes específicas da aplicação no código.\cite{fact2}
 
@@ -122,14 +126,13 @@ O \emph{Creator} depende de suas subclasses para definir o \emph{Factory Method}
 	\item Criar objetos dentro de uma classe com um \emph{Factory Method} é sempre mais flexível do que criar objetos diretamente.
 	\item O \emph{Factory Method} provê um gancho para que subclasses forneçam uma versão estendida de um objeto
 
-
 	\item Criação de objetos é desacoplada do conhecimento do tipo concreto do objeto
 	\item Conecta hierarquias de classe paralelas
 	\item Facilita a extensibilidade
 
 \end{itemize}
 
-Aqui estão duas consequências adicionais do padrão \emph{Factory Method}:
+Aqui estão duas consequências adicionais do padrão \emph{Factory Method}:\cite{gamma95}
 
 \begin{enumerate}
 	\item Fornecer ganchos para subclasses. Criação de objetos dentro de uma classe com \emph{factory methods} é sempre mais flexível do que criar um objeto diretamente. \emph{Factory Method} da para subclasses um gancho para fornecer uma versão estendida
@@ -149,13 +152,20 @@ Este estado é necessária apenas durante manipulação e, portanto, não precis
 
 Com estas restrições, é melhor usar um objeto Manipulator separado que implementa a interação e mantém registro de qualquer
 Estado de manipulação específica necessário. 
-Diferentes figuras usarão diferentes manipuladores para lidar com interações específicas. O hierarquia de classes manipulatoras resultante(pelo menos parcialmente)é ilistrada na figura x:
+Diferentes figuras usarão diferentes manipuladores para lidar com interações específicas. O hierarquia de classes manipulatoras resultante (pelo menos parcialmente) é ilustrada na figura \ref{fig:hierarquia}:
 
 \end{enumerate}
 
-Se o cliente tem que criar de qualquer maneira uma subclasse da classe \emph{Creator}, usar subclasses pode ser uma boa solução, mas de outra maneira o cliente tem que lidar com outro ponto da evolução.
+\begin{center}
+	\includegraphics[scale=0.40]{Figuras/hier_class_par.jpg}
+	\captionof{figure}{Hierarquia de classes paralelas}
+	\label{fig:hierarquia}
+\end{center}
 
-Uma desvantagem potencial do \emph{factory method} é que os clientes podem precisar ter uma subclasse \emph{Creator} apenas para criar um objeto \emph{ConcreteProduct} específico.
+
+A classe \emph{Figure} proporciona um \emph{factory method CreateManipulator} que permite 
+os clientes a criar um \emph{Manipulator} correspondente ao da figura. As subclasses \emph{Figure}
+sobreescrevem esse método para retornar uma instância da subclasse \emph{Manipulator} correto para eles. Alternativamente, a classe  \emph{Figure} pode implementar \emph{CreateManipulator} para retornar uma instancia de um \emph{Manipulator} padrão, e a classe \emph{Figure} pode simplesmente herdar esse padrão.
 
 
 \subsection{Exemplos de uso}
